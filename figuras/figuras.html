@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras Geométricas
+        </h1>
+        <p>Calcula automaticamente las areas y perimetros de estas figuras!</p>
+    </header>
+
+    <section>
+        <h2>Cuadrados</h2>
+        <form>
+            <label for="inputCuadrado">¿Cuanto mide cada lado de tu cuadrado?</label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el Perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular el Área</button>
+        </form>
+    </section>
+    <section>
+        <h2>Triangulos ISÓCELES</h2>
+        <label for="inputTrianguloLado1">Indica cuanto mide el Lado 1</label>
+        <input id="inputTrianguloLado1"type="number">
+        <label for="inputTrianguloLado2">Indica cuanto mide el Lado 2</label>
+        <input id="inputTrianguloLado2"type="number">
+        <label for="inputTrianguloBase">Indica cuanto mide la base</label>
+        <input id="inputTrianguloBase"type="number">
+        <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el Perimetro</button>
+        <button type="button" onclick="calcularAreaTriangulo()">Calcular el Area</button>
+        <button type="button" onclick="calcularAlturaTriangulo()">Conozca la altura de su Triangulo</button>
+    </section>
+    <section>
+        <h2>Círculos</h2>
+        <label for="inputRadioCirculo">Indica cuanto mide el rado de tu circulo</label>
+        <input id="inputRadioCirculo"type="number">
+        <button type="button" onclick="calcularCircunferencia()">Calcula la Circunferencia</button>
+        <button type="button" onclick="calcularAreaCirculo()">Calcula el area del Círculo</button>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>

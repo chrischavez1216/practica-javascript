@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+</head>
+<body>
+    <section>
+        <h1>Calcula Estadistica</h1>
+        <p>Crea una lista de numeros y calcula el promedio, la media y la moda de la misma!</p>
+        <form id="listForm">
+            <label for="inputNumbers">Agrega numeros a tu lista</label>
+            <input id="inputNumbers"type="number">
+            <button type="button" onclick="agregarNumeros()">Agregar numero a la lista</button>
+            <p id="listP"></p>
+        </form>
+    <h2>Promedio</h2>
+    <form>
+        <button type="button" onclick="calcularMediaAritmeica()">Calcula el Promedio de tu lista</button>
+        <p id="promedioP"></p>
+    </form>
+    </section>
+    <script src="./promedio.js"></script>
+</body>
+</html>
